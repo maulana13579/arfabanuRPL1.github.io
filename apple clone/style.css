@@ -1,0 +1,59 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li a{
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    /* background-color: black; */
+    padding: 8px 16px;
+}
+
+body{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 10px 0;
+    background-color: black;
+}
+
+.apple{
+    width: 30px;
+    margin-top: -13px;
+}
+
+.search{
+    width: 20px;
+    height: auto;
+}
+
+.bag{
+    width: 20px;
+    margin-left: 20px;
+}
+
+header{
+    height: 40px;
+}
+
+/* .apple, .search, .bag{
+    margin-top: -2px;
+
+} */
